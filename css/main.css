@@ -36,6 +36,7 @@ body {
 /*End of Global*/
 
 
+
 /* Navbar*/
 .navbar {
   background: var(--mainDark) !important;
@@ -49,3 +50,42 @@ body {
 }
 
 /*End of Navbar*/
+
+
+
+/*Banner*/
+.banner-info {
+  min-height: calc(100vh - 101px);
+  background: var(--mainGrey);
+  position: relative;
+}
+
+.banner-info__footer {
+  background: var(--mainGreen);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.banner-img {
+  min-height: calc(100vh - 101px);
+  background: url("../img/banner1.jpg")center/cover fixed no-repeat;
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  position: relative;
+}
+
+.banner-img__footer {
+  background: var(--mainDark);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 104px;
+  display: flex;
+  align-items: center;
+}
+
+/*End of Banner*/
