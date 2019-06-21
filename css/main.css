@@ -284,3 +284,9 @@ body {
   background: var(--mainGreen);
   color: var(--mainWhite);
 }
+
+/* FOOTER SECTION*/
+
+.footer {
+  background: var(--mainDark);
+}
