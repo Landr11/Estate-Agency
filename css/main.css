@@ -164,7 +164,8 @@ body {
 
 /* Services section */
 
-.services {
+.services,
+.tour {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('../img/featured-3.jpg')center/cover fixed no-repeat;
 }
@@ -265,5 +266,21 @@ body {
 
 .gallery-img-container:hover .gallery-icon {
   opacity: 1;
+}
 
+/* Tour Section */
+.tour-icon {
+  color: var(--mainGreen);
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  background: var(--mainWhite);
+  border-radius: 30%;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 1s linear;
+}
+
+.tour-icon:hover {
+  background: var(--mainGreen);
+  color: var(--mainWhite);
 }
